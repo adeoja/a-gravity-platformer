@@ -63,6 +63,7 @@ Smooth mouse-based rotation
 Look-at offset for better player framing
 
 Project Structure
+
 Scripts
 PlayerController.cs       // Main player logic and state machine
 CameraController.cs       // Third-person camera system
