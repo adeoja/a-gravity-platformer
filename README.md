@@ -64,12 +64,12 @@ Look-at offset for better player framing
 
 Project Structure
 Scripts/
-├── PlayerController.cs      # Main player logic and state machine
-├── CameraController.cs       # Third-person camera system
-├── GameManager.cs            # Score tracking and level management
-├── CheckpointSystem.cs       # Respawn point management
-├── UIManager.cs              # Tutorial hints and UI displays
-└── MovingPlatform.cs         # Dynamic platform movement
+PlayerController.cs      # Main player logic and state machine
+CameraController.cs       # Third-person camera system
+GameManager.cs            # Score tracking and level management
+CheckpointSystem.cs       # Respawn point management
+UIManager.cs              # Tutorial hints and UI displays
+MovingPlatform.cs         # Dynamic platform movement
 
 Unity Version: 6000.0.56f1
 
