@@ -1,0 +1,6 @@
+Controls:
+
+Movement- WASD or Arrow Keys
+Jump- Space
+Shoot- Left-Click
+Gravity Ability- Z
