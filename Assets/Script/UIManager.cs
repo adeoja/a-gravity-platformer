@@ -2,13 +2,18 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text hintTextPopup;
+    //[SerializeField] private Button PlayButton;
+    
     private GameObject[] hintsArray = new GameObject[10];
     [SerializeField] private string[] hintsString = new string[10];
-    public int index = 0;
+    public int index;
 
     public static UIManager Instance;
     
@@ -27,11 +32,13 @@ public class UIManager : MonoBehaviour
     {
         if (!hintsArray.Contains(hintTrigger) && hintsArray.Length >= index+1 && hintsString.Length >= index+1)
         {
+            CancelInvoke("HideHint");
+            
             hintTextPopup.enabled = true;
             hintsArray[index] = hintTrigger;
             hintTextPopup.text = hintsString[index];
             index++;
-            Invoke("HideHint", 2.0f);
+            Invoke("HideHint", 5.0f);
         }
     }
 
@@ -39,5 +46,9 @@ public class UIManager : MonoBehaviour
     {
         hintTextPopup.enabled = false;
     }
-    
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
 }

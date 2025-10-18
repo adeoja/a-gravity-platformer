@@ -15,7 +15,6 @@ public class BulletScript : MonoBehaviour
     void Start()
     {
         rb.AddForce(transform.forward * bulletSpeed, ForceMode.Impulse);
-        
     }
 
     private void OnTriggerEnter(Collider other)

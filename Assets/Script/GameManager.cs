@@ -25,6 +25,12 @@ public class GameManager : MonoBehaviour
         if (score >= 3)
         {
             SceneManager.LoadScene(0);
+            Cursor.lockState = CursorLockMode.None;
         }
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
     }
 }
