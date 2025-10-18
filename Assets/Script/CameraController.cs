@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float mouseSensitivity = 100f;
     [SerializeField] private float distance = 5f;
     [SerializeField] private float height = 2f;
-    [SerializeField] private float side;
+    [SerializeField] private float sideOffset = 2f;
     [SerializeField] private Vector2 clampMinMax;
     
     private float rotationX = 0f;
@@ -38,6 +38,6 @@ public class CameraController : MonoBehaviour
         // Set camera position and look at player
         transform.position = playerTransform.position + offset;
         // Look slightly to the right of the player
-        transform.LookAt(playerTransform.position + Vector3.up * height + playerTransform.right * side);
+        transform.LookAt(playerTransform.position + Vector3.up * height + playerTransform.right * sideOffset);
     }
 }

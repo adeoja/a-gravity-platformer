@@ -2,8 +2,11 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Main player controller managing character movement, state transitions, and gravity mechanics.
 public class PlayerController : MonoBehaviour
 {
+    
+    // Implements a finite state machine for clean state management and supports unique gravity-flip gameplay
     private enum PlayerState
     {
         Idle,
@@ -35,6 +38,7 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] private MovingPlatform triggerPlatform;
     
+    // state tracking variables
     private bool isGrounded = true;
     private bool onCeilingWithGravity;
     private bool touchingCeiling;
