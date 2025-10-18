@@ -95,47 +95,16 @@ Scripts/
 ## 🛠️ Technologies Used
 
 - **Engine:** Unity 6000.0.56f1
-- **Language:** C#
-- **Physics:** Unity Physics System
-- **UI:** TextMeshPro
-
----
-
-## 🚀 Setup Instructions
-
-1. Clone the repository
-   ```bash
-   git clone [your-repo-url]
-   ```
-
-2. Open the project in Unity 6000.0.56f1 or later
-
-3. Open the main scene
-
-4. Assign required references in the Inspector:
-   - Player references (Rigidbody, Animator, transforms)
-   - Camera reference to player
-   - UI elements (TextMeshPro components)
-   - Prefabs (bullet prefab)
-
-5. Configure the following tags:
-   - `Ground`
-   - `Ceiling`
-   - `Obstacle`
-   - `Checkpoint`
-   - `Tutorial Trigger`
-
-6. Press Play to test
 
 ---
 
 ## 🎯 Core Features Showcase
 
 ### Gravity Manipulation
-The unique selling point of this game - players can invert gravity to walk on ceilings, opening up vertical level design possibilities.
+Players can invert gravity to walk on ceilings, opening up vertical level design possibilities.
 
 ### State Machine Implementation
-Clean, maintainable player controller using FSM pattern, making it easy to add new states or modify existing behaviors.
+Player controller uses FSM pattern, making it easy to add new states or modify existing behaviors.
 
 ### Progressive Checkpoint System
 Smart checkpoint management that automatically tracks player progress through the level.
@@ -162,24 +131,6 @@ Potential features for expansion:
 - [ ] Level selection menu
 - [ ] Audio system integration
 - [ ] Particle effects and visual polish
-
----
-
-## 👤 Developer
-
-Created as a portfolio piece demonstrating:
-
-- Unity engine proficiency
-- C# programming skills
-- Game design patterns knowledge
-- Physics-based gameplay implementation
-- Clean code practices
-
----
-
-## 📄 License
-
-This project is available for educational and portfolio purposes.
 
 ---
 
