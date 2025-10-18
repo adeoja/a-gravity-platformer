@@ -1,76 +1,31 @@
-# 3DPlatformer
-
-
+🌀 3D Platformer
 Gravity Platformer Game
 
-This prototype was made for an assignment where we were supposed to implement third person character with animations and 3 moving parts (e.g. platforms, bullets, etc). For my project, I made a 3D Unity platformer featuring  gravity-manipulation mechanics where players can walk on ceilings and navigate challenging obstacle courses.
+This prototype was created for an assignment requiring the implementation of a third-person character with animations and three moving parts (e.g., platforms, bullets, etc.).
 
-Play the game here: 
+For my project, I developed a 3D Unity platformer featuring gravity-manipulation mechanics, allowing players to walk on ceilings and navigate challenging obstacle courses.
+
+🎮 Play the game here: (Add your link here)
 
 🎮 Gameplay Features
-
 Core Mechanics
-  Gravity Flip Ability: Toggle gravity to walk on ceilings and reach new areas
-  Third-Person Camera: Smooth orbital camera with mouse controls
-  Combat System: Raycast-based shooting with crosshair targeting
-  Checkpoint System: Progressive checkpoint saving for quick respawns
-  Moving Platforms: Dynamic platforms triggered by player progression
-  Tutorial System: Context-sensitive hint displays to guide players
 
-Controls
+Gravity Flip Ability: Toggle gravity to walk on ceilings and reach new areas
 
-WASD - Movement
-Mouse - Camera control
-Space - Jump (works on both ground and ceiling)
-Z - Toggle gravity ability
-Left Click - Shoot
+Third-Person Camera: Smooth orbital camera with mouse controls
 
-🏗️ Technical Architecture
-Design Patterns
-  Finite State Machine: Clean state management for player controller
-  Singleton Pattern: Global access for core managers (GameManager, UIManager, CheckpointSystem)
-  Component-Based Design: Modular scripts for easy maintenance and iteration
+Combat System: Raycast-based shooting with crosshair targeting
 
-Key Systems
-Player Controller
-Implements a Finite State Machine with 5 states:
-  Idle
-  Run
-  Jump
-  Gravity Ability (ascending)
-  On Ceiling (inverted gameplay)
+Checkpoint System: Progressive checkpoint saving for quick respawns
 
-Features include:
-  Camera-relative movement
-  Physics-based jump mechanics
-  Smooth state transitions
-  Animation integration
+Moving Platforms: Dynamic platforms triggered by player progression
 
-Checkpoint System
-  Automatic checkpoint detection based on level progression
-  Position-based checkpoint ordering (z-axis)
-  Respawn functionality on obstacle collision
+Tutorial System: Context-sensitive hint displays to guide players
 
-Camera System
-  Third-person orbital camera
-  Configurable distance, height, and rotation limits
-  Smooth mouse-based rotation
-  Look-at offset for better player framing
-
-Project Structure
-
-Scripts
-  PlayerController.cs       // Main player logic and state machine
-  CameraController.cs       // Third-person camera system
-  GameManager.cs            // Score tracking and level management
-  CheckpointSystem.cs       // Respawn point management
-  UIManager.cs              // Tutorial hints and UI displays
-  MovingPlatform.cs         // Dynamic platform movement
-
-Unity Version: 6000.0.56f1
-
-Note: This is a work-in-progress portfolio project showcasing game development fundamentals and Unity engine capabilities.
-
-
-
-
+🎮 Controls
+Action	Key
+Move	WASD
+Camera Control	Mouse
+Jump (works on ground and ceiling)	Space
+Toggle Gravity Ability	Z
+Shoot	Left Click
