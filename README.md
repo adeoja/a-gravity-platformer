@@ -2,6 +2,7 @@
 
 
 Gravity Platformer Game
+
 This prototype was made for an assignment where we were supposed to implement third person character with animations and 3 moving parts (e.g. platforms, bullets, etc). For my project, I made a 3D Unity platformer featuring  gravity-manipulation mechanics where players can walk on ceilings and navigate challenging obstacle courses.
 
 Play the game here: 
