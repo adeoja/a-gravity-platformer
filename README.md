@@ -1,4 +1,4 @@
-# 3D Platformer - Gravity Manipulation Game
+# a gravity platformer - Gravity Manipulation Game
 
 A 3D Unity platformer prototype featuring unique gravity-manipulation mechanics where players can walk on ceilings and navigate challenging obstacle courses.
 
