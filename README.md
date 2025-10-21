@@ -2,9 +2,9 @@
 
 A 3D Unity platformer prototype featuring unique gravity-manipulation mechanics where players can walk on ceilings and navigate challenging obstacle courses.
 
-> **Play the game here:** [[Link to game](https://adeoja.itch.io/a-gravity-platformer)]
+> **Play the game here:** [Link to game](https://adeoja.itch.io/a-gravity-platformer)
 
-> **Game Clip:** [[Link to Video](https://youtu.be/2zsQ_3-Gohs)]
+> **Game Clip:** [Link to Video](https://youtu.be/2zsQ_3-Gohs)
 <img width="1579" height="865" alt="Screenshot 2025-10-18 202928" src="https://github.com/user-attachments/assets/7a312f23-023e-4143-8159-2a5860d84679" />
 
 
